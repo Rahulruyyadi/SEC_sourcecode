@@ -1,0 +1,10 @@
+.card.there
+{
+
+display: none;
+
+}
+.card.notthere
+{
+    opacity: 1;
+}

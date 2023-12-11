@@ -1,0 +1,122 @@
+.embedded {
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    background-image: url(https://res.cloudinary.com/dluyslfrm/image/upload/v1679233011/Untitled_design_14_gqqybh.png);
+    flex-direction: row;
+    align-items: center;
+    
+    background-size: cover;
+    background-repeat: none;
+    margin: 0 auto;
+
+}
+
+.embedded-video {
+    border-radius: 20px;
+    border: 2px solid white;
+
+}
+
+.embedded-div {
+    padding-right: 5px;
+    padding-left: 400px;
+    position: relative;
+    top: -125px;
+    width: 50vw;
+    height:20vh;
+    
+}
+
+.podcast-head {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 130px;
+
+    font-family: cursive;
+
+
+}
+
+.blur-box {
+    background-color: white;
+    
+    backdrop-filter: blur(10.5px);
+    width: 25vw;
+    height: 40vh;
+    opacity: 0.9;
+    padding-left: 30px;
+    position: relative;
+    left: 200px;
+    border: 2px solid white;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: none;
+    background-image: url(https://res.cloudinary.com/dluyslfrm/image/upload/v1679174444/Lorna_s_Podcast_vfrytg.jpg);
+}
+@media screen and (max-width:768px) {
+    .embedded {
+        width:100vw;
+        height: 100vh;
+        display: flex;
+        background-image: url(https://res.cloudinary.com/dluyslfrm/image/upload/v1679233011/Untitled_design_14_gqqybh.png);
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        background-repeat: none;
+        
+    
+    }
+    .embedded-div {
+        padding-right: 5px;
+        padding-left: 0px;
+        position: relative;
+        top: -125px;
+        align-self: start;
+        width: 100vw;
+        height:100vh;
+        margin-bottom:180px;
+        
+    }
+    .blur-box {
+        background-color: white;
+        
+        backdrop-filter: blur(10.5px);
+        width: 70%;
+        margin-top: 60px;
+        height: 90%;
+        opacity: 0.9;
+        border-radius: 20px;
+        padding-left: 30px;
+        position: relative;
+        left: 0px;
+        border: 2px solid white;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: none;
+        background-image: url(https://res.cloudinary.com/dluyslfrm/image/upload/v1679174444/Lorna_s_Podcast_vfrytg.jpg);
+    }
+    /* .podcast-head {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-weight: 800;
+        padding-left: 0px;
+    
+        font-family: cursive;
+    
+    
+    } */
+    .embedded-video {
+        border-radius: 20px;
+        border: 2px solid white;
+        width: 70%;
+        height: 90%;
+        position: relative;
+        top:200px;
+        left:74px;
+       
+        bottom: 20px;
+    }
+}
+    

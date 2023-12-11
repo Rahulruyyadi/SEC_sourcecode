@@ -1,0 +1,93 @@
+.slider {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 0px;
+  background-size: cover;
+  margin-top:0px;
+
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.slide img {
+  
+  width: 1400px;
+  
+}
+
+.slide.active {
+  opacity: 1;
+  transform: translate3d(-40px, -0px, 0px);
+}
+
+.bullets {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.bullet.active {
+  background-color: #333;
+}
+
+.animate__animated.animate__zoomInDown {
+  --animation-duration: 1s;
+
+
+}
+
+.image-bgh {
+  background-image: url("https://res.cloudinary.com/dluyslfrm/image/upload/v1679179277/As_a_well-known_travel_agency_in_the_country_Borcelle_Travel_Agency_was_first_formed_in_1995_and_later_developed_into_a_travel_agency_that_can_help_vacation_packages_for_travelers_to_various_places_with_high-class_ylbpnh.png");
+  height: 50vh;
+  background-size: cover;
+}
+
+
+
+.slide {
+ margin-top: 20px;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+@media screen and (max-width: 678px) {
+  .sw {
+    width: 430px;
+    height: 670px;
+  }
+  .sw1
+  {
+    width:auto;
+    height:auto;
+  }
+.slide.active {
+  opacity: 1;
+  transform: translate3d(-500px, -0px, 0px);
+}
+}

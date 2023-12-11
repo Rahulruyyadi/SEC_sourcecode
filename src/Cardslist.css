@@ -1,0 +1,8 @@
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(https://res.cloudinary.com/dluyslfrm/image/upload/v1679238828/Untitled_design_17_doxt9m.png); 
+}
+
+

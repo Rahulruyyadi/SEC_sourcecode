@@ -1,0 +1,213 @@
+  .articles {
+     
+      max-height: max-content;
+      width:100vw;
+      background-position:50% 20%;
+      background-size: cover;
+      background-image: url(https://res.cloudinary.com/dluyslfrm/image/upload/v1679251948/Untitled_design_22_rq87bh.png);
+      /* background-attachment: scroll; */
+  }
+
+  .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      height: 100%;
+      width: 100vw;
+      justify-content: space-around;
+      
+  }
+
+  .card{
+      width: 280px;
+      height: 330px;
+      border-radius: 15px;
+      padding: 1.5rem;
+      background: white;
+      /* position: relative; */
+      display: flex;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      align-items: flex-end;
+      transition: 0.4s ease-out;
+      box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .card:hover {
+      transform: translateY(20px);
+  }
+
+  .card:hover:before {
+      opacity: 1;
+  }
+
+  .card:hover .info {
+      opacity: 1;
+      transform: translateY(0px);
+  }
+
+  .card:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 2;
+      transition: 0.5s;
+      opacity: 0;
+  }
+
+  .card img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 15px;
+  }
+
+  .card .info {
+      position: relative;
+      z-index: 6;
+      color: white;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: 0.5s;
+  }
+
+  .card .info h1 {
+      margin: 0px;
+  }
+
+  .card .info p {
+      letter-spacing: 1px;
+      font-size: 15px;
+      margin-top: 8px;
+  }
+
+  .card .info button {
+      padding: 0.6rem;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      background: white;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.4s ease;
+  }
+
+  .card .info button:hover {
+      background: dodgerblue;
+      color: white;
+  }
+
+  
+  .card-preview2{
+    width: 280px;
+    height: 330px;
+    border-radius: 15px;
+    padding: 1.5rem;
+    background: white;
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: flex-end;
+    transition: 0.4s ease-out;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-preview2:hover {
+    transform: translateY(20px);
+    background-color: black;  
+    
+}
+
+.card-preview2:hover:before {
+    opacity: 1;
+}
+
+.card-preview2:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+    /* background-color: black; */
+}
+
+.card-preview2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.card-preview2 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+}
+
+.card-preview2 .info {
+    position: relative;
+    z-index: 6;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+}
+
+.card-preview2 .info h1 {
+    margin: 0px;
+}
+
+.card-preview2 .info p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.card-preview2 .info button {
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.card-preview2 .info button:hover {
+    background: dodgerblue;
+    color: white;
+}
+
+.icon-styles
+{
+ display: flex;
+ flex-direction:row;
+/* justify-content:space-between; */
+}
+.icon{
+    margin-right:20px;
+    font-size: 30px;
+}

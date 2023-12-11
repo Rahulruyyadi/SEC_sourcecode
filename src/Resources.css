@@ -1,0 +1,22 @@
+.slider-2
+{
+   position:relative;
+    top:-1500px;
+    left:-22px;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+   margin-left: 0px;
+}
+.slider-2.active
+{
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+    margin-left: 0px;
+    z-index: 1;
+}

@@ -1,0 +1,27 @@
+.Team
+{
+    background-image: url(https://res.cloudinary.com/dluyslfrm/image/upload/v1679251948/Untitled_design_22_rq87bh.png);
+    background-size: cover;
+}
+.Team-des
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(57, 255, 20);
+    ;
+}
+.Team, .Team-des , h1 ,select
+{
+    color: #5ff748;
+    background-color: #004300;
+    border-color: azure;
+}
+@media screen and (max-width: 679px) {
+ .Team{
+    background-repeat: no-repeat;
+    background-position: -500px 0px;
+ }   
+}

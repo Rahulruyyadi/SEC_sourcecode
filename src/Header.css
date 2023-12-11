@@ -1,0 +1,83 @@
+.navbar-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+
+/* .link-items{
+  margin-left: auto;
+} */
+.bg2
+{
+  border-style: none;
+  background-image: url(https://res.cloudinary.com/dluyslfrm/image/upload/v1679239469/Untitled_design_19_h2hohz.png);
+  /* background-image: linear-gradient(rgba(241, 246, 254, 0.367),rgba(128, 128, 128, 0.253) 50%,rgba(47, 47, 178, 0.218)); */
+  background-size: cover;
+  height:100px;
+  /* background-position-x:54px; */
+}
+.items-box{
+  margin-left: auto;
+}
+.nav-link{
+  color: #e4dddd;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  list-style: none;
+  margin-top:10px;
+}
+
+.science
+{
+  color: #ebffeb;
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 20px;
+  font-family: 'sans-serif';
+}
+.logo-style{
+  height: 90px;
+  width: 90px;
+ margin-top: 0px;
+ margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-section {
+    flex-direction: column;
+    height: 100%;
+  }
+  .back-color{
+    background-color: #000000;
+    z-index: 5;
+    width:100vw;
+  }
+  .show
+  {
+    width:100vw;
+  }
+  .items-box{
+    text-align: center;
+  }
+  .link-items{
+    margin-left: 0;
+  }
+  .nav-link{
+    margin-right: 0;
+  }
+  .logo-style{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+  .science{
+    font-size:16px;
+    /* margin: 5px; */
+  }
+}
+  

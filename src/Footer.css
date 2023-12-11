@@ -1,0 +1,137 @@
+.footer
+{
+  width: 100vw;
+  height:100%;
+  /* background-size: cover;  */
+  background-image: url(https://res.cloudinary.com/dluyslfrm/image/upload/v1679239333/Untitled_design_18_wz9vra.png);
+  background-repeat: none;
+}
+.footer-links
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  align-self: flex-start;
+  height: 100%;
+  list-style: none;
+  font-size: 5rem;
+  margin-top: 10px;
+}
+
+.footer-links-1
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.15rem;
+  text-decoration: none;
+  font-weight:540;
+  color:rgb(245, 232, 245);
+ 
+}
+
+.footer-links.hoover
+{
+  
+  font-size: 5.25rem;
+  
+  font-weight:600;
+  color:rgb(25, 120, 222);
+  
+}
+
+.social-media
+{
+  display: flex;
+  flex-direction: column;
+  /* justify-content:center; */
+  text-align: center;
+  align-self:flex-end;
+  width:76px;
+  top:-100px;
+  font-size: 30px;
+   margin: 30px;
+  border-radius: 10px;
+  border: 5px solid #4ff518;
+  
+}
+
+.social-media a{
+  color: #4ff518;
+  
+ 
+  background-color: transparent;
+}
+.grid-box
+{
+  display: flex;
+  flex-direction: row;
+  align-items:start;
+  gap: 1150px;
+  height: 100%;
+  width: 100%;
+ 
+}
+@media screen and (max-width:679px) {
+  
+  /* .footer{
+    justify-content: center;
+  align-items: center; 
+  }
+  .footer-links
+{
+ display: flex;
+  
+  justify-content: space-around; 
+  align-items:center;
+  align-self: center;
+  text-align: center;
+  height: 100%;
+  list-style: none;
+  font-size: 5rem;
+  margin-top: 10px;
+}
+.social-media{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-self: center;
+  width: 200px;
+  position: relative;
+  top:-30px;
+  font-size: 1.5rem;
+  text-align: center;
+  
+ 
+}
+.social-media a {
+  padding-left: 5px;
+  padding-right:5px;
+} */
+.grid-box
+{
+  display: flex;
+  flex-direction: row;
+  align-items:start;
+  gap: 350px;
+  height: 100%;
+  width: 100%;
+ 
+}
+.footer
+{
+  background-position: -1000px 0px ;
+  
+}
+.footer-links
+{
+ display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  align-items:center;
+  align-self: center;
+  text-align: center;
+  height: 100%;
+  list-style: none;
+  font-size: 1rem;
+  margin-top: 0px;
+}
+}
